@@ -1,0 +1,36 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hello", "hi", "hey"],
+        "responses": ["Hello!", "Hi there!", "Greetings!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["goodbye", "see you", "bye"],
+        "responses": ["Goodbye!", "See you soon!", "Take care!"]
+      },
+      {
+        "tag": "tell_time",
+        "patterns": ["what time is it", "tell me the time", "current time"],
+        "responses": ["The current time is {time}."]
+      },
+      {
+        "tag": "open_website",
+        "patterns": ["open website", "go to", "open"],
+        "responses": ["Opening {website}."]
+      }
+      {
+        "tag": "close_website",
+        "patterns": ["close website"],
+        "responses": ["Closing {website}."]
+      }
+      {
+        "tag": "greeting",
+        "patterns":["how are you", "how was your day"],
+        "responses":["Preety Cool !"]
+      }
+      
+    ]
+}
+  
